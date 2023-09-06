@@ -25,6 +25,5 @@
     "nodemailer": "^6.9.4",
     "parser": "^0.1.4",
     "validator": "^13.9.0"
-        "node": "^20.5.1",
   }
 }
