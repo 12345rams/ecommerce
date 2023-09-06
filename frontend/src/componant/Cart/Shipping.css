@@ -1,0 +1,52 @@
+.shippingContainer{
+    width:100vw;
+
+    background-color: rgb(253, 253, 253);
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2vmax 2vmax;
+    align-content: center;
+}
+.ShippingBox{
+    width: 30vmax;
+  height: 40vmax;
+background-color: aliceblue;
+margin: auto;
+box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+overflow: hidden;
+padding: 1vmax 1vmax;
+box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ShippingBox>form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0vmax 0vmax;
+    align-items: center;
+}
+.ShippingBox>form >div >input,.ShippingBox>form >div >select{
+    padding: 1vmax 3vmax;
+ 
+    width: 28vmax;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    font: 300 0.9vmax cursive;
+    outline: none;
+    text-align: start;
+    color: rgb(31, 31, 31);
+}
+.ShippingBox>form >div >svg{
+    font-size: 2vmax;
+ 
+    transform: translatey(3vmax);
+}
+
+.ShippingBox>form >button{
+    margin-top: 2vmax;
+}

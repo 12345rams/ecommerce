@@ -1,0 +1,48 @@
+.paymnetContainer{
+    width: 100vw;;
+    height: 100vh;
+    max-width: 100%;
+    padding: 2vmax 2vmax;
+    align-items: center;
+    justify-content: center;
+}
+.paymentBox{
+ 
+}
+.paymentForm{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+ margin: auto;
+ margin-top: 5vmax;
+    width: 60%;
+    background-color: rgb(213, 244, 255);
+    height: 100%;
+      display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+.paymentForm >p{
+    font:400 2vmax "Roboto"
+}
+.paymentInput{
+    
+    text-align: center;
+    width: 30vmax;
+    padding: 5px 30px;
+    height: 2.5vmax;
+    margin: auto;
+    border: 1px solid rgb(24, 23, 23);
+    margin-top: 2vmax;
+}
+.paymentForm >div >svg{
+    position: absolute;
+    margin: auto;
+    transform: translateY(2vmax)
+}
+.paymentForm >button{
+    margin-top: 2vmax;
+    margin-bottom: 2vmax;
+}
+.StripeElement{
+    width: 30vmax;
+}

@@ -1,0 +1,15 @@
+.search{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100vh;
+}
+.search >form >input{
+height: 2vmax;
+width:20vmax;
+ border: .2vmax solid rgb(16, 157, 245);
+
+}
+

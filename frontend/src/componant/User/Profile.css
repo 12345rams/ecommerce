@@ -1,0 +1,56 @@
+.profileContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imageBox{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.details{
+    width: 100%;
+}
+.details >div{
+    display: flex;
+    flex-direction: column;
+}
+.imageBox >img{
+    width: 20vmax;
+    height: 20vmax;
+  border-radius: 50%;
+}
+.details >div > div{
+    display: flex;
+   flex-direction: row;
+   text-decoration: none;
+   
+   
+}
+.details >div > div >a{
+    margin-left: 10px;
+}
+@media screen and (max-width:400px) {
+.profileContainer{
+    display: flex;
+    flex-direction: column;
+  
+}
+.details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.details >div >h4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+}

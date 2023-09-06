@@ -1,0 +1,68 @@
+.confirmMainContainer{
+  width: 100vw;
+  height: 100vh;;
+  padding: 5vmax 6vmax;
+  box-sizing: border-box;
+}
+.confirmContainer{
+    display:grid;
+    grid-template-columns: 4fr 1fr;
+}
+.ShippingInfo {
+    display: flex;
+    flex-direction: column;
+   padding-top: 2vmax;
+    
+}
+.ShippingInfo >div{
+    display:flex ;
+  
+ 
+}
+.yourcartItems{
+    padding-bottom: 1vmax;
+    display: flex;
+    flex-direction: column;
+overflow-y: auto;
+ margin-bottom: 2vmax;
+}
+
+.yourcartItems >div>img{
+   width: 14vmax;
+    height: 12vmax;
+}
+.yourcartItems >div >a{
+    text-decoration: none;
+    font: 400 1.5vmax "Roboto";
+}
+.yourcartItems >div >a{
+    margin: 1vmax 1vmax;
+    font: 100 1vmax "Roboto";
+    color: #575757;
+}
+.line{
+    width: 20vmax;
+    display: flex;
+    align-items: end;
+    border-bottom: 5px solid rgb(37, 112, 216);
+}
+ .orderSummary{
+    display: flex;
+    flex-direction: column;
+    padding: 3vmax 3vmax;
+ }
+.orderSummary >div {
+    display: flex;
+}
+.orderSummary >div >p,.ShippingInfo >div >p{
+    font: 100 1vmax "Roboto";
+}
+.orderSummary >div >span,.ShippingInfo >div >span{
+    margin: 1vmax 1vmax;
+    font: 100 1vmax "Roboto";
+    color: #575757;
+}
+.orderSummary>button{
+    margin-top: 2vmax;
+    width: 20vmax;
+}
