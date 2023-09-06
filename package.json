@@ -24,6 +24,8 @@
     "mongoose": "^7.3.4",
     "nodemailer": "^6.9.4",
     "parser": "^0.1.4",
+        "moongose": "^1.0.0",
+
     "validator": "^13.9.0"
   }
 }
