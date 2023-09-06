@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node backend/server",
-    "dev": "nodemon backend/server.js"
+
   },
   "author": "",
   "license": "ISC",
@@ -23,6 +23,7 @@
     "jsonwebtoken": "^9.0.1",
     "mongoose": "^7.3.4",
     "nodemailer": "^6.9.4",
+     "node": "^20.5.1",
     "parser": "^0.1.4",
     "validator": "^13.9.0"
   }
