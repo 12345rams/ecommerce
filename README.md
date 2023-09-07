@@ -25,13 +25,13 @@ A website that allows people to buy and sell physical goods, services, and digit
 
  
 **For Backend**
- 1. `cd e-comerce-backend`
+ 1. `cd backend`
  2. `npm i`
  3. `npm run dev`
 
 **For Frontend**
 
- 1. `cd e-comerce-frontend`
+ 1. `cd frontend`
  2. `npm i`
  3. `npm run start`
 
